@@ -28,15 +28,21 @@
                 
                 for($i = 0; $i < count($product); $i++){
                     echo $product[$i] .'<br>';
+                    echo "<hr>";
+
 
                 }
 
                 $price =array ("apple" => 5, "banana" => 3 , "milk" => 6 ); 
                 for($j = 0; $j < count($product); $j++){
                     echo $price[$product[$j]] ."<br>";
+                    
                     $total += $price[$product[$j]]; 
                 }
-                echo $total;
+                  echo "<hr>";
+                echo "Total  is : " . $total;
+                $taxes = $total * 6 /100;
+                echo "<br>"."Total after GTS :".  $taxes + $total;
             }
 
             ?>
@@ -45,7 +51,7 @@
         <div class="right">
             <form action="" method ="POST" >
                 <div class="row">
-                    <div class="column"><input type="checkbox" name = "product[]" value = "apple"><label for="">apple: $5 <br> we have a variety of fresh delecious apples in all colors </label></div>
+                    <div class="column"><input type="checkbox" name = "product[]" value = "apple"><label for="">apple: $5 <br>  we have a variety of fresh delecious apples in all colors </label></div>
                     <div class="column"><input type="checkbox" name = "product[]" value = "banana"><label for="">banana: $3<br> our bananas are hand picked and ready to be savored</label></div>
                     <div class="column"><input type="checkbox" name = "product[]" value = "milk"><label for="">milk: $6 <br> our milk is freshly squized by grass fed cows </label></div>
                     <div class="column"><input type="checkbox" name = "product[]" value = "lamb"><label for="">lamb: $10 <br>fresh lamb meat</label></div>
