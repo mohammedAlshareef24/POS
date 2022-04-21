@@ -31,7 +31,7 @@
 
                 }
 
-                $price =array ("apple" => 5, "banana" => 3 ); 
+                $price =array ("apple" => 5, "banana" => 3 , "milk" => 6 ); 
                 for($j = 0; $j < count($product); $j++){
                     echo $price[$product[$j]] ."<br>";
                     $total += $price[$product[$j]]; 
