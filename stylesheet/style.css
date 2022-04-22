@@ -15,12 +15,12 @@ html{
 }
 
 hr{
-    border: 10px solid green;
-  border-radius: 5px;
+    border: 1px solid rgb(141, 79, 79);
+    border-radius: 5px;
 }
 .left{
     height: auto;
-    border-right: 2px solid #000;
+    border-right: 2px solid rgb(234, 153, 153);
     padding: 1rem;
 }
 
@@ -44,7 +44,7 @@ hr{
 
 .submit {
     position: relative;
-    background-color: #281e16;
+    background-color: #845c3c;
     border: none;
     font-size: 28px;
     color: #FFFFFF;
@@ -57,4 +57,12 @@ hr{
     cursor: pointer;
   }
   
-}
+
+
+
+
+
+
+
+
+

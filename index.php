@@ -10,8 +10,10 @@
 <body>
     <div class="container">
         <div class="left">
+       
 
-            <p>total</p>
+            <p>Products list : </p>
+            <hr>
             <?php
 
       if(isset($_POST['product'])) {
@@ -19,8 +21,14 @@
 
 
                 $total = 0;
+                  ?>
+
+
+               
+                  <?php
 
             
+       
 
                 // 999999999
 
@@ -30,28 +38,26 @@
                     echo $product[$i] .'<br>';
                     echo "<hr>";
 
-
                 }
 
-                $price =array ("apple" => 5, "banana" => 3 , "milk" => 6 ); 
+                $price =array ("apple" => 5, "banana" => 3 , "milk" => 6 , "lamb" => 10 ,"orange" => 3 , "eggs" => 6 , "cheese" => 7 , "butter" => 4 , "juice" => 5 , "water" => 1 , "bread" => 3 , "oil" => 10 , "meat" => 15 , "chicken" => 12 , "fish" => 14 , "honey" => 9 , "soap" => 6 , "shampoo" => 12 , "toothpaste" => 6 , "tomato" => 3 , "t-shirts" => 6 , "pants" => 5 ,"socks" => 3 , "potato" => 2 , "chips" => 3 , "soft-drinks" => 3 , "beans" => 2 , "onion" => 2 ); 
                 for($j = 0; $j < count($product); $j++){
                     echo $price[$product[$j]] ."<br>";
-                    
+                    echo "<hr>";
                     $total += $price[$product[$j]]; 
                 }
-                  echo "<hr>";
-                echo "Total  is : " . $total;
-                $taxes = $total * 6 /100;
-                echo "<br>"."Total after GTS :".  $taxes + $total;
+               
+              echo "Total  is : " . $total;
+              $taxes = $total * 6 /100;
+              echo "<hr>"."<br>"."Total after GTS :".  $taxes + $total;
             }
 
             ?>
-
         </div>
         <div class="right">
             <form action="" method ="POST" >
                 <div class="row">
-                    <div class="column"><input type="checkbox" name = "product[]" value = "apple"><label for="">apple: $5 <br>  we have a variety of fresh delecious apples in all colors </label></div>
+                    <div class="column"><input type="checkbox" name = "product[]" value = "apple"><label for="">apple: $5 <br> we have a variety of fresh delecious apples in all colors </label></div>
                     <div class="column"><input type="checkbox" name = "product[]" value = "banana"><label for="">banana: $3<br> our bananas are hand picked and ready to be savored</label></div>
                     <div class="column"><input type="checkbox" name = "product[]" value = "milk"><label for="">milk: $6 <br> our milk is freshly squized by grass fed cows </label></div>
                     <div class="column"><input type="checkbox" name = "product[]" value = "lamb"><label for="">lamb: $10 <br>fresh lamb meat</label></div>
@@ -114,4 +120,4 @@
     </div>
 
 </body>
-</html> 
+</html>
