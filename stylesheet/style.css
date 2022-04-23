@@ -15,7 +15,7 @@ html{
 }
 
 hr{
-    border: 1px solid rgb(141, 79, 79);
+    border: 1px solid rgb(20, 18, 18);
     border-radius: 5px;
 }
 .left{
@@ -36,7 +36,7 @@ hr{
     justify-content: center;
     width: 150px;
     height: 100px;
-    background: #F8B400;
+    background: #c29007;
     margin: 2px;
 
  
@@ -44,7 +44,7 @@ hr{
 
 .submit {
     position: relative;
-    background-color: #845c3c;
+    background-color: #632c00;
     border: none;
     font-size: 28px;
     color: #FFFFFF;

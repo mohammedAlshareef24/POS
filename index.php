@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +17,7 @@
             <p>Products list : </p>
             <hr>
             <?php
-
+      // alshrif mohammad marwan ahmad 1828937
       if(isset($_POST['product'])) {
        $product = $_POST['product'];
 
@@ -30,7 +32,7 @@
             
        
 
-                // 999999999
+               
 
 
                 
@@ -39,7 +41,7 @@
                     echo "<hr>";
 
                 }
-
+                // Abdelhadi hadj sahroui 1919059
                 $price =array ("apple" => 5, "banana" => 3 , "milk" => 6 , "lamb" => 10 ,"orange" => 3 , "eggs" => 6 , "cheese" => 7 , "butter" => 4 , "juice" => 5 , "water" => 1 , "bread" => 3 , "oil" => 10 , "meat" => 15 , "chicken" => 12 , "fish" => 14 , "honey" => 9 , "soap" => 6 , "shampoo" => 12 , "toothpaste" => 6 , "tomato" => 3 , "t-shirts" => 6 , "pants" => 5 ,"socks" => 3 , "potato" => 2 , "chips" => 3 , "soft-drinks" => 3 , "beans" => 2 , "onion" => 2 ); 
                 for($j = 0; $j < count($product); $j++){
                     echo $price[$product[$j]] ."<br>";
@@ -48,12 +50,15 @@
                 }
                
               echo "Total  is : " . $total;
+
+              // Elgaafarawy tawfek - 1720305
               $taxes = $total * 6 /100;
               echo "<hr>"."<br>"."Total after GTS :".  $taxes + $total;
             }
 
             ?>
         </div>
+        <!-- alsharif mohammad - Elgaafarawy tawfek - 1720305 -Abdelhadi hadj sahroui 1919059 -->
         <div class="right">
             <form action="" method ="POST" >
                 <div class="row">
