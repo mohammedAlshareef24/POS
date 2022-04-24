@@ -1,9 +1,9 @@
-# E-wallet managment system
+# pos
 INFO 3305 Web Application Development Case Study
 <br><br>
 Group 1  Members:
 <br><br>
-1-alshrif mohammad marwan ahmad 1828937
+1-alshrif mohammad marwan ahmad 1828937 (group leader)
 <br>
 2-  Abdelhadi hadj sahroui 1919059
 <br>
