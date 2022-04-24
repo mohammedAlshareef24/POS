@@ -8,6 +8,7 @@ Group 1  Members:
 2-  Abdelhadi hadj sahroui 1919059
 <br>
 3-Elgaafarawy tawfek - 1720305
+4- saad alderra -1827379
 
 <br><br>
 Our Case study is about an point of sale system which allows the user to to choose the product and sees the describtion with the price. The user can see his total price and a list of products purchased.
