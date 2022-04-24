@@ -20,7 +20,7 @@ hr{
 }
 .left{
     height: auto;
-    border-right: 2px solid rgb(234, 153, 153);
+    border-right: 2px solid rgb(6, 3, 3);
     padding: 1rem;
 }
 
@@ -36,7 +36,7 @@ hr{
     justify-content: center;
     width: 150px;
     height: 100px;
-    background: #c29007;
+    background: #d4b96d;
     margin: 2px;
 
  
@@ -44,7 +44,7 @@ hr{
 
 .submit {
     position: relative;
-    background-color: #632c00;
+    background-color: #79430f;
     border: none;
     font-size: 28px;
     color: #FFFFFF;
